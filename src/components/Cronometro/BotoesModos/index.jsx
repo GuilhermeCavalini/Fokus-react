@@ -1,8 +1,6 @@
 import styles from "./styles.module.css";
 
 import BotaoModo from "./BotaoModo";
-import { useContext } from "react";
-import { CronometroContext } from "../../../context/CronometroContext";
 import useCronometroContext from "../../../hooks/useCronometroContext";
 
 const BotoesModos = () => {
